@@ -7,31 +7,32 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * 
+ * @author Steven Reisman
+ *
+ */
 
 @WebServlet("/TextComparison")
 public class ServletController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+    
     public ServletController() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
+    /**
+     * Accepts HTTP GET requests to application root and renders index page "index.jsp"
+     */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		//response.getWriter().append(" Hellooooo");
 		request.getRequestDispatcher("/index.jsp").include(request, response);
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * Accepts HTTP POST Requests to application root and renders the index page "index.jsp"
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 

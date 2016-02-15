@@ -1,5 +1,12 @@
 package com.philips.textcompare;
 
+/**
+ * 
+ * @author Steven Reisman
+ * Bean Model Representation for
+ * uploaded text files
+ */
+
 public class UploadBeanModel {
 
 	private String text;

@@ -4,6 +4,12 @@ import javax.activation.DataSource;
 
 import com.philips.textcompare.UploadBeanModel;
 
+/**
+ * 
+ * @author Steven Reisman
+ *
+ */
+
 public class FileUploadDAOImpl implements IFileUploadDAO{
 
 	
@@ -14,12 +20,12 @@ public class FileUploadDAOImpl implements IFileUploadDAO{
 	
 	@Override
 	public void insert(UploadBeanModel upload) {
-		
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public UploadBeanModel getById(int uploadId) {
+	public UploadBeanModel getByFileName(String name) {
 		// TODO Auto-generated method stub
 		return null;
 	}

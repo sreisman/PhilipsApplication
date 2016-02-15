@@ -57,9 +57,19 @@
   		<version>2.1.1</version>
   	</dependency>
   	<dependency>
-  		<groupId>org.webjars.bower</groupId>
+  		<groupId>org.webjars.npm</groupId>
   		<artifactId>d3pie</artifactId>
   		<version>0.1.9</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-jdbc</artifactId>
+  		<version>4.1.6.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>postgresql</groupId>
+  		<artifactId>postgresql</artifactId>
+  		<version>9.1-901.jdbc4</version>
   	</dependency>
   </dependencies>
 </project>
